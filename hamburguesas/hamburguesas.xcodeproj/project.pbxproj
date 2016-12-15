@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA362BA61E0213D000B29C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA362BA51E0213D000B29C12 /* AppDelegate.swift */; };
+		EA362BA81E0213D000B29C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA362BA71E0213D000B29C12 /* ViewController.swift */; };
+		EA362BAB1E0213D000B29C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA362BA91E0213D000B29C12 /* Main.storyboard */; };
+		EA362BAD1E0213D000B29C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA362BAC1E0213D000B29C12 /* Assets.xcassets */; };
+		EA362BB01E0213D000B29C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA362BAE1E0213D000B29C12 /* LaunchScreen.storyboard */; };
+		EA362BBB1E0213D000B29C12 /* hamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA362BBA1E0213D000B29C12 /* hamburguesasTests.swift */; };
+		EA362BC61E0213D000B29C12 /* hamburguesasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA362BC51E0213D000B29C12 /* hamburguesasUITests.swift */; };
+		EA7796811E021F05007CF034 /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7796801E021F05007CF034 /* ColoresStruct.swift */; };
+		EA7796831E02218A007CF034 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7796821E02218A007CF034 /* Datos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA362BB71E0213D000B29C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA362B9A1E0213CE00B29C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA362BA11E0213CE00B29C12;
+			remoteInfo = hamburguesas;
+		};
+		EA362BC21E0213D000B29C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA362B9A1E0213CE00B29C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA362BA11E0213CE00B29C12;
+			remoteInfo = hamburguesas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA362BA21E0213D000B29C12 /* hamburguesas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamburguesas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA362BA51E0213D000B29C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA362BA71E0213D000B29C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA362BAA1E0213D000B29C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA362BAC1E0213D000B29C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA362BAF1E0213D000B29C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA362BB11E0213D000B29C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA362BB61E0213D000B29C12 /* hamburguesasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamburguesasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA362BBA1E0213D000B29C12 /* hamburguesasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamburguesasTests.swift; sourceTree = "<group>"; };
+		EA362BBC1E0213D000B29C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA362BC11E0213D000B29C12 /* hamburguesasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hamburguesasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA362BC51E0213D000B29C12 /* hamburguesasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamburguesasUITests.swift; sourceTree = "<group>"; };
+		EA362BC71E0213D000B29C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA362BD51E021C6800B29C12 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		EA7796801E021F05007CF034 /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
+		EA7796821E02218A007CF034 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA362B9F1E0213CE00B29C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA362BB31E0213D000B29C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA362BBE1E0213D000B29C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA362B991E0213CE00B29C12 = {
+			isa = PBXGroup;
+			children = (
+				EA362BA41E0213D000B29C12 /* hamburguesas */,
+				EA362BB91E0213D000B29C12 /* hamburguesasTests */,
+				EA362BC41E0213D000B29C12 /* hamburguesasUITests */,
+				EA362BA31E0213D000B29C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA362BA31E0213D000B29C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA362BA21E0213D000B29C12 /* hamburguesas.app */,
+				EA362BB61E0213D000B29C12 /* hamburguesasTests.xctest */,
+				EA362BC11E0213D000B29C12 /* hamburguesasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA362BA41E0213D000B29C12 /* hamburguesas */ = {
+			isa = PBXGroup;
+			children = (
+				EA362BA51E0213D000B29C12 /* AppDelegate.swift */,
+				EA362BA71E0213D000B29C12 /* ViewController.swift */,
+				EA362BA91E0213D000B29C12 /* Main.storyboard */,
+				EA362BAC1E0213D000B29C12 /* Assets.xcassets */,
+				EA362BAE1E0213D000B29C12 /* LaunchScreen.storyboard */,
+				EA362BB11E0213D000B29C12 /* Info.plist */,
+				EA362BD41E0215CA00B29C12 /* ColoresSwift */,
+				EA7796801E021F05007CF034 /* ColoresStruct.swift */,
+				EA7796821E02218A007CF034 /* Datos.swift */,
+			);
+			path = hamburguesas;
+			sourceTree = "<group>";
+		};
+		EA362BB91E0213D000B29C12 /* hamburguesasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA362BBA1E0213D000B29C12 /* hamburguesasTests.swift */,
+				EA362BBC1E0213D000B29C12 /* Info.plist */,
+			);
+			path = hamburguesasTests;
+			sourceTree = "<group>";
+		};
+		EA362BC41E0213D000B29C12 /* hamburguesasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA362BC51E0213D000B29C12 /* hamburguesasUITests.swift */,
+				EA362BC71E0213D000B29C12 /* Info.plist */,
+			);
+			path = hamburguesasUITests;
+			sourceTree = "<group>";
+		};
+		EA362BD41E0215CA00B29C12 /* ColoresSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EA362BD51E021C6800B29C12 /* MyPlayground.playground */,
+			);
+			name = ColoresSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA362BA11E0213CE00B29C12 /* hamburguesas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA362BCA1E0213D000B29C12 /* Build configuration list for PBXNativeTarget "hamburguesas" */;
+			buildPhases = (
+				EA362B9E1E0213CE00B29C12 /* Sources */,
+				EA362B9F1E0213CE00B29C12 /* Frameworks */,
+				EA362BA01E0213CE00B29C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hamburguesas;
+			productName = hamburguesas;
+			productReference = EA362BA21E0213D000B29C12 /* hamburguesas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA362BB51E0213D000B29C12 /* hamburguesasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA362BCD1E0213D000B29C12 /* Build configuration list for PBXNativeTarget "hamburguesasTests" */;
+			buildPhases = (
+				EA362BB21E0213D000B29C12 /* Sources */,
+				EA362BB31E0213D000B29C12 /* Frameworks */,
+				EA362BB41E0213D000B29C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA362BB81E0213D000B29C12 /* PBXTargetDependency */,
+			);
+			name = hamburguesasTests;
+			productName = hamburguesasTests;
+			productReference = EA362BB61E0213D000B29C12 /* hamburguesasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA362BC01E0213D000B29C12 /* hamburguesasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA362BD01E0213D000B29C12 /* Build configuration list for PBXNativeTarget "hamburguesasUITests" */;
+			buildPhases = (
+				EA362BBD1E0213D000B29C12 /* Sources */,
+				EA362BBE1E0213D000B29C12 /* Frameworks */,
+				EA362BBF1E0213D000B29C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA362BC31E0213D000B29C12 /* PBXTargetDependency */,
+			);
+			name = hamburguesasUITests;
+			productName = hamburguesasUITests;
+			productReference = EA362BC11E0213D000B29C12 /* hamburguesasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA362B9A1E0213CE00B29C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Luis Orozco";
+				TargetAttributes = {
+					EA362BA11E0213CE00B29C12 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EA362BB51E0213D000B29C12 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA362BA11E0213CE00B29C12;
+					};
+					EA362BC01E0213D000B29C12 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA362BA11E0213CE00B29C12;
+					};
+				};
+			};
+			buildConfigurationList = EA362B9D1E0213CE00B29C12 /* Build configuration list for PBXProject "hamburguesas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA362B991E0213CE00B29C12;
+			productRefGroup = EA362BA31E0213D000B29C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA362BA11E0213CE00B29C12 /* hamburguesas */,
+				EA362BB51E0213D000B29C12 /* hamburguesasTests */,
+				EA362BC01E0213D000B29C12 /* hamburguesasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA362BA01E0213CE00B29C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA362BB01E0213D000B29C12 /* LaunchScreen.storyboard in Resources */,
+				EA362BAD1E0213D000B29C12 /* Assets.xcassets in Resources */,
+				EA362BAB1E0213D000B29C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA362BB41E0213D000B29C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA362BBF1E0213D000B29C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA362B9E1E0213CE00B29C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA362BA81E0213D000B29C12 /* ViewController.swift in Sources */,
+				EA7796831E02218A007CF034 /* Datos.swift in Sources */,
+				EA7796811E021F05007CF034 /* ColoresStruct.swift in Sources */,
+				EA362BA61E0213D000B29C12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA362BB21E0213D000B29C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA362BBB1E0213D000B29C12 /* hamburguesasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA362BBD1E0213D000B29C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA362BC61E0213D000B29C12 /* hamburguesasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA362BB81E0213D000B29C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA362BA11E0213CE00B29C12 /* hamburguesas */;
+			targetProxy = EA362BB71E0213D000B29C12 /* PBXContainerItemProxy */;
+		};
+		EA362BC31E0213D000B29C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA362BA11E0213CE00B29C12 /* hamburguesas */;
+			targetProxy = EA362BC21E0213D000B29C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA362BA91E0213D000B29C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA362BAA1E0213D000B29C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA362BAE1E0213D000B29C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA362BAF1E0213D000B29C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA362BC81E0213D000B29C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA362BC91E0213D000B29C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA362BCB1E0213D000B29C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hamburguesas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luisorozco.hamburguesas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA362BCC1E0213D000B29C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hamburguesas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luisorozco.hamburguesas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA362BCE1E0213D000B29C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hamburguesasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luisorozco.hamburguesasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hamburguesas.app/hamburguesas";
+			};
+			name = Debug;
+		};
+		EA362BCF1E0213D000B29C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hamburguesasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luisorozco.hamburguesasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hamburguesas.app/hamburguesas";
+			};
+			name = Release;
+		};
+		EA362BD11E0213D000B29C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hamburguesasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luisorozco.hamburguesasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hamburguesas;
+			};
+			name = Debug;
+		};
+		EA362BD21E0213D000B29C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hamburguesasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luisorozco.hamburguesasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hamburguesas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA362B9D1E0213CE00B29C12 /* Build configuration list for PBXProject "hamburguesas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA362BC81E0213D000B29C12 /* Debug */,
+				EA362BC91E0213D000B29C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA362BCA1E0213D000B29C12 /* Build configuration list for PBXNativeTarget "hamburguesas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA362BCB1E0213D000B29C12 /* Debug */,
+				EA362BCC1E0213D000B29C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA362BCD1E0213D000B29C12 /* Build configuration list for PBXNativeTarget "hamburguesasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA362BCE1E0213D000B29C12 /* Debug */,
+				EA362BCF1E0213D000B29C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA362BD01E0213D000B29C12 /* Build configuration list for PBXNativeTarget "hamburguesasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA362BD11E0213D000B29C12 /* Debug */,
+				EA362BD21E0213D000B29C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA362B9A1E0213CE00B29C12 /* Project object */;
+}
